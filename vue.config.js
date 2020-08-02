@@ -1,3 +1,7 @@
 module.exports = {
-  runtimeCompiler: true
+  runtimeCompiler: true,
+  devServer: {
+    host: '0.0.0.0',
+    disableHostCheck: true
+  }
 }
